@@ -1,0 +1,9 @@
+
+@media(max-width:768px){
+    .profileAlignment{
+        flex-direction: column-reverse;
+    }
+    .displayPic{
+       display: none;
+    }
+}

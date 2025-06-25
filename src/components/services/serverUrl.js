@@ -1,0 +1,1 @@
+export const serverUrl = 'https://learning-app-server-k5rg.onrender.com'
