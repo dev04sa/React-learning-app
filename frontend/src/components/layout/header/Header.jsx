@@ -24,7 +24,7 @@ function Header() {
           <Navbar.Collapse id="basic-navbar-nav" className=''>
             <Nav className="me-auto" style={{color:'#802BB1'}}>
               <Nav.Link href="#home" className='me-5' style={{color:'#802BB1',fontSize:'18px'}}>Home</Nav.Link>
-              <Nav.Link href="#link" className='me-5' style={{color:'#802BB1',fontSize:'18px'}}>About</Nav.Link>
+              <Link to={'/about'} className='me-5 text-decoration-none mt-2 ' style={{color:'#802BB1',fontSize:'18px'}}>About</Link>
               <Nav.Link href="#link" className='me-5' style={{color:'#802BB1',fontSize:'18px'}}>Resources</Nav.Link>
               <Nav.Link href="#link" className='me-5' style={{color:'#802BB1',fontSize:'18px'}}>Career</Nav.Link>
               <Link to={'/login'}><button  className='btn btn-primary px-5 '>Login</button></Link>            
